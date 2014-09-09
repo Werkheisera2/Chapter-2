@@ -15,8 +15,8 @@ namespace Room
             Console.WriteLine("Length:             25 feet");
             Console.WriteLine("Width:              10 feet");
             Console.WriteLine("___________________________");
-            Console.WriteLine("The floor space is " + Area);
-            Console.WriteLine("square feet.");
+            Console.WriteLine("The floor space is " + Area + "square feet.");
+
         }
     }
 }
