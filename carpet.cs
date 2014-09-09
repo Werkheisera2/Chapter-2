@@ -1,4 +1,4 @@
-﻿ using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,9 +21,9 @@ namespace ConsoleApplication1
             Console.WriteLine("");
             Console.WriteLine("Carpet length:                       25 feet.");
             Console.WriteLine("Carpet width:                        30 feet.");
-            Console.WriteLine("Cost of carpet(per sq.ft.)            $4.57.");
+            Console.WriteLine("Cost of carpet(per sq.ft.)           $4.57.");
             Console.WriteLine("_____________________________________________");
-
+            Console.WriteLine("Cost of carpeting the room:          $" + length * width * money);
 
         }
     }
